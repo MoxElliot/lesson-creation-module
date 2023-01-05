@@ -1,16 +1,15 @@
-import util from '../styles/util.module.scss';
-import NavBar from '../components/nav-bar';
 import Head from 'next/head';
-
-export default function Home() {
-  return (
+import InstructorLessonView from '../components/instructor-lesson-view/instructor-lesson-view';
+export default function InstructorDash() {
+    return (
     <div>
-      <Head>
-            <title>Home Page</title>
+        <Head>
+            <title>Instructor Dashboard</title>
             <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-      </Head>
-    <NavBar />
-    <h1>Hello</h1>
+        </Head>
+        <div className="dashContainer container">
+            <InstructorLessonView />
+        </div>
     </div>
-  )
+    )
 }
