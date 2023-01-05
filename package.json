@@ -1,0 +1,35 @@
+{
+  "name": "calendar-appt-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.5",
+    "@reduxjs/toolkit": "^1.8.3",
+    "bootstrap": "^5.2.0-beta1",
+    "cors": "^2.8.5",
+    "dayjs": "^1.11.6",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "next": "12.2.0",
+    "next-redux-wrapper": "^7.0.5",
+    "node-sass": "^7.0.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-redux": "^8.0.2",
+    "redux-devtools-extension": "^2.13.9",
+    "redux-thunk": "^2.4.1",
+    "sass": "^1.53.0",
+    "validator": "^13.7.0"
+  },
+  "devDependencies": {
+    "@redux-devtools/core": "^3.13.1",
+    "eslint": "8.19.0",
+    "eslint-config-next": "12.2.0"
+  }
+}

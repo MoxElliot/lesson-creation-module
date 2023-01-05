@@ -1,0 +1,29 @@
+$primary: #034f84;
+
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+
+$global-background: #f7786b;
+$background-border:#8b463f;
+$lesson-control-background:#92a8d1;
+
+@mixin standard-border {
+  border: 2px solid $background-border;
+  border-radius: 2rem;
+}
+
+html,
+body {
+  background-color: $global-background;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
