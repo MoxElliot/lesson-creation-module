@@ -192,7 +192,7 @@ const InstCalandarView = () => {
                     />
                     <label 
                         className='btn btn-primary'
-                        for="toggleCreate"
+                        htmlFor="toggleCreate"
                     >
                         Create Lesson
                     </label>
@@ -206,7 +206,7 @@ const InstCalandarView = () => {
                     />
                     <label 
                         className='btn btn-primary'
-                        for="toggleEdit"
+                        htmlFor="toggleEdit"
                     >
                         Edit Lesson
                     </label>
